@@ -26,7 +26,11 @@ namespace Calculator
                 double b = Convert.ToDouble(Console.ReadLine());
                 sign="";
 
-                Console.Write("Enter operation: ");
+                Console.WriteLine("Enter operation: ");
+                Console.WriteLine("+: addition");
+                Console.WriteLine("-: subtraction");
+                Console.WriteLine("*: multiplication");
+                Console.WriteLine("/: division");
                 sign = Console.ReadLine();
                 double result = 0;
                 
@@ -63,7 +67,7 @@ namespace Calculator
                 choice = Console.ReadLine();
                 choice=choice.ToUpper();
             } while (choice=="YES");
-            Console.WriteLine("Sayonara!!");
+            Console.WriteLine("Thanks and goodbye!");
 
            Console.ReadLine();
         }
