@@ -55,10 +55,6 @@ namespace Calculator
                             Console.WriteLine("Division by zero is invalid. Close the terminal and try again!");
                         }
                         break;
-                    case "%":
-                        result=a%b;
-                        Console.WriteLine(a+"%"+b+"="+result);
-                        break;
                     default:
                         Console.WriteLine("Not a valid operator. Close terminal and try again.");
                         break;
